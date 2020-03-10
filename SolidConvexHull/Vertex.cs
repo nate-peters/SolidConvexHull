@@ -8,10 +8,6 @@ namespace SolidConvexHull
     [IsVisibleInDynamoLibrary(false)]
     public class Vertex: IVertex
     {
-        //private Vertex()
-        //{
-
-        //}
 
         public Vertex(double x, double y, double z, bool isHull = false)
         {

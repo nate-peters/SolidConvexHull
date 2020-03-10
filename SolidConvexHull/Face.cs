@@ -11,10 +11,6 @@ namespace SolidConvexHull
     [IsVisibleInDynamoLibrary(false)]
     public class Face : ConvexFace<Vertex, Face>
     {
-        //private Face(ConvexFace<TVertex, TFace>)
-        //{
-
-        //}
 
     }
 }

@@ -10,14 +10,15 @@ using Dynamo.Graph.Nodes;
 namespace SolidConvexHull
 {
     /// <summary>
-    /// The HelloDynamoZeroTouch class demonstrates
-    /// how to create a class in a zero touch library
-    /// which creates geometry, and exposes public 
-    /// methods and properties as nodes.
+    /// These nodes return the convex hull of a point cloud as ordered lists
+    /// of points that can be easily converted to closed meshes and solids. 
+    /// The MIConvexHull library is used internally to perform the hull calculations
     /// </summary>
     public class SolidConvexHull : IGraphicItem
     {
 
+        // Include a private constructor to prevent Dynamo from automatically adding 
+        // an empty "SolidConvexHull" node in the library
         private SolidConvexHull()
         {
 
