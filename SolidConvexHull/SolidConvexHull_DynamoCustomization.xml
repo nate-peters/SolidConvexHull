@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>SolidConvexHull</name>
+  </assembly>
+  <namespaces>
+    <namespace name="SolidConvexHull">
+      <category>SolidConvexHull</category>
+    </namespace>
+  </namespaces>
+</doc>
